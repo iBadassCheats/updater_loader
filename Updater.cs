@@ -15,7 +15,7 @@ namespace __by_iBadassCheats_
 {
     internal class Updater
     {
-        internal static string webrequest = "https://h4cks.de/products/";
+        internal static string webrequest = "https://website/products/";
         internal static WebClient wc = new WebClient();
 
         internal static string welcome_text = $@"╔╗ ┬ ┬  ┬╔╗ ┌─┐┌┬┐┌─┐┌─┐┌─┐╔═╗┬ ┬┌─┐┌─┐┌┬┐┌─┐
@@ -52,7 +52,7 @@ Beginner Simple.";
 
         internal static void Update()
         {
-            Console.Title = "Cheat Updater - H4cks.de";
+            Console.Title = "Cheat Updater";
             MessageBox.Show("Warning Turn Anti Virus OFF");
 
             if (!Directory.Exists("Tools"))
